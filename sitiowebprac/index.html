@@ -3,15 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Tarjeta Personal</title>
+    <title>Arte & Bicicletas de Montaña</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="card">
-        <h1>¡Hola, mundo kirbys de nuevo y estamos haciendo una web !</h1>
-        <p>estamos aprendiendo a crear páginas web y programar en HTML, CSS, y a respaldar mi codigo en la nube con git y githud.</p>
-        <button onclick="alert('¡gracias por visitar mi sitio web!')">¡saludar!</button>
-    </div>
+    <header class="site-header">
+        <div class="logo">Arte &amp; MTB</div>
+        <nav class="menu">
+            <a href="#arte">Arte</a>
+            <a href="#bicis">Bicicletas</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">Creatividad + aventura</p>
+                <h1>Arte y bicicletas de montaña en una sola experiencia</h1>
+                <p>Descubre ilustraciones inspiradas en senderos, paisajes y la libertad de pedalear en la montaña.</p>
+                <a href="#arte" class="btn btn-primary">Ver mis proyectos</a>
+            </div>
+            <div class="hero-card">
+                <h2>Combinando dibujo y naturaleza</h2>
+                <p>Una web limpia que une el color, la técnica y la emoción del ciclismo de montaña.</p>
+            </div>
+        </section>
+
+        <section id="arte" class="section-cards">
+            <article class="card">
+                <h3>Dibujo</h3>
+                <p>Trazos expresivos, bocetos de paisajes y obras con estilo minimalista.</p>
+            </article>
+            <article class="card">
+                <h3>Ilustración</h3>
+                <p>Color y composición pensados para inspirar rutas, bicicletas y libertad.</p>
+            </article>
+            <article class="card">
+                <h3>Proyectos</h3>
+                <p>Propuestas creativas que conectan la bicicleta de montaña con el arte gráfico.</p>
+            </article>
+        </section>
+
+        <section id="bicis" class="feature-section">
+            <div class="feature-text">
+                <h2>Bicicletas de montaña</h2>
+                <p>Ruta, estilo y técnica unidos en una propuesta visual moderna.</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <h4>Rutas inspiradoras</h4>
+                    <p>Recorridos que alimentan la imaginación y el espíritu aventurero.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Estilo y energía</h4>
+                    <p>Diseño inspirado en la montaña, con una paleta natural y vibrante.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact-section">
+            <h2>Contacto</h2>
+            <p>Si te interesa colaborar en arte, ilustraciones o rutas en bicicleta, hablemos.</p>
+            <a href="mailto:artebicicletas@example.com" class="btn btn-secondary">Enviar mensaje</a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Arte &amp; MTB. Diseño limpio con HTML y CSS.</p>
+    </footer>
 </body>
 </html>
 
